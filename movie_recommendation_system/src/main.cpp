@@ -1,7 +1,5 @@
 #include <iostream>
 #include "recommender.hpp"
-
-
 #include <fstream>
 #include <vector>
 #include <sstream>
