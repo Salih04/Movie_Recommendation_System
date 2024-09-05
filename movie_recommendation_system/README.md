@@ -40,6 +40,7 @@ o	Alternatively, if you need to run specific C++ modules, compile and execute th
 o	Recommendations will be displayed in the console or saved to an output file, depending on your implementation.
 
 **Contact**
+
 Your Name -  Salih Camcı, salih.camci@bahcesehir.edu.tr, Yaman Karakoca, yaman.karakoca@bahcesehir.edu.tr
 Project Link: https://github.com/Salih04/movie-recommendation-system
 
