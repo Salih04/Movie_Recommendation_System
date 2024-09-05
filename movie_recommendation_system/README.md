@@ -41,8 +41,8 @@ o	Recommendations will be displayed in the console or saved to an output file, d
 
 **Contact**
 
-Your Name -  Salih Camcı, salih.camci@bahcesehir.edu.tr, Yaman Karakoca, yaman.karakoca@bahcesehir.edu.tr
+Salih Camcı, salih.camci@bahcesehir.edu.tr, 
+Yaman Karakoca, yaman.karakoca@bahcesehir.edu.tr
 Project Link: https://github.com/Salih04/movie-recommendation-system
 
-This is the full content for your `README.md` file, ready to be copied and saved in your project directory. Make sure to replace placeholders like `your-username` and `your.email@example.com` with your actual information. Let me know if you need any more adjustments!
 
