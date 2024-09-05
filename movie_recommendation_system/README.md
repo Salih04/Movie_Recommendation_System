@@ -42,7 +42,9 @@ o	Recommendations will be displayed in the console or saved to an output file, d
 **Contact**
 
 Salih Camcı, salih.camci@bahcesehir.edu.tr, 
+
 Yaman Karakoca, yaman.karakoca@bahcesehir.edu.tr
+
 Project Link: https://github.com/Salih04/movie-recommendation-system
 
 
