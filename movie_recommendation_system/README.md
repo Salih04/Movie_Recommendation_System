@@ -1,5 +1,5 @@
 # Movie Recommendation System #
-Overview
+## Overview
 This project contains two separate implementations of a Movie Recommendation System, written in different programming languages:
 
 Python Version: Developed by [Salih Camcı](https://github.com/Salih04).
@@ -22,31 +22,26 @@ Python Version
 Prerequisites:
 Python 3.x
 
-## Required libraries: Install dependencies by running:
+## Required libraries: 
+Install dependencies by running:
 pip install -r requirements.txt
 Running the Python version:
 
 To generate movie recommendations, execute the following command:
-
 python movie_recommender.py
-Input Data: The input file should be in CSV format with movie ratings or relevant data. Modify the data_path in the script to point to your dataset.
+***Input Data***: The input file should be in CSV format with movies.csv. Modify the data_path in the script to point to your dataset if any error occurs.
 
 C++ Version
-Prerequisites:
-
+### Prerequisites:
 A C++ compiler (e.g., g++, clang)
 CMake (optional, if using for build)
-Compiling:
 
+### Compiling:
 Navigate to the C++ directory and compile the code:
-
-
 g++ -o movie_recommender movie_recommender.cpp
-Running the C++ version:
 
+### Running the C++ version:
 After compiling, run the executable:
-
-
 ./movie_recommender
 Input Data: Ensure that the input file (e.g., a CSV or text file) is formatted as expected by the C++ code. You may need to modify the file_path in the source code.
 
