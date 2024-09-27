@@ -10,7 +10,7 @@ Both versions of the system operate independently and provide personalized movie
 
 ## Python Version
 Uses libraries like pandas, sys, and scikit-learn.
-Provides functionality for data preprocessing, similarity computation, and recommendation generation using collaborative filtering.
+Provides functionality for data preprocessing, similarity computation, and recommendation generation using **content-based filtering**.
 
 ## C++ Version
 Implements efficient algorithms for movie recommendation.
