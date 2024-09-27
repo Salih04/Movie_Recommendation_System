@@ -55,6 +55,6 @@ Integrate both versions into a unified interface or API.
 Extend functionality with more advanced recommendation algorithms.
 Add a web interface for easier interaction with the system.
 
-#Contributors#
+# Contributors #
 Salih Camcı (https://github.com/Salih04) - Python Version
 Yaman Karakoca (https://github.com/ykarakoca) - C++ Version
