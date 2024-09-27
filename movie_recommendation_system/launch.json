@@ -7,7 +7,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["Toy Story (1995)"]  // Add your arguments here
+            "args": ["Toy Story (1995)"],
         }
     ]
 }
