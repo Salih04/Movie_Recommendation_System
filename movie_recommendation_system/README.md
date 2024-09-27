@@ -8,29 +8,46 @@ Both versions of the system operate independently and provide personalized movie
 
 # Features
 
-## Python Version:
-Uses libraries like pandas, numpy, and scikit-learn.
+## Python Version
+Uses libraries like pandas, sys, and scikit-learn.
 Provides functionality for data preprocessing, similarity computation, and recommendation generation using collaborative filtering.
 
-## C++ Version:
+## C++ Version
 Implements efficient algorithms for movie recommendation.
 Uses custom data structures and optimizations for faster performance.
-Each version has its own set of dependencies and instructions for setup and execution.
 
-## Setup
-Python Version
-Prerequisites:
-Python 3.x
+## Setup Prerequisites
+Python 3.11.9
 
-## Required libraries: 
-Install dependencies by running:
-pip install -r requirements.txt
-Running the Python version:
+## Required libraries
+- pip install -U scikit-learn
+- pip install pandas
+  
+## Running the Python version
 
-To generate movie recommendations, run the following command:
-python movie_recommender.py
+The Python version is executed using a launch.json configuration file, which allows you to run and debug the program through an integrated terminal (e.g., in VS Code).
+The system takes a movie title as an argument, passed through the launch.json configuration.
 
-***Input Data***: The input file should be in CSV format with movies.csv. Modify the data_path in the script to point to your dataset if any error occurs.
+## Running the Python version:
+- Open the project in your editor (e.g., VS Code).
+- Ensure that your launch.json file contains the appropriate configuration:
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["Sabrina (1995)"]  // Add your arguments here
+        }
+    ]
+}
+Run the project by selecting the Python: Current File configuration in the debugger and start the process. The program will take a movie (e.g., "Sabrina (1995)") as an argument for recommendations.
+
+***Input Data***: Modify the args field in launch.json to pass in different movie titles or arguments as input.
 
 ### C++ Version Prerequisites:
 A C++ compiler (e.g., g++, clang)
