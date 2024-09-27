@@ -1,50 +1,60 @@
-**Content-Based Movie Recommendation System**
+Movie Recommendation System
+Overview
+This project contains two separate implementations of a Movie Recommendation System, written in different programming languages:
 
-This project is a content-based movie recommendation system built using Python and C++. The system recommends movies to users based on their preferences by analyzing movie features such as genre, director, actors, and plot descriptions.
+Python Version: Developed by [Salih Camcı](https://github.com/Salih04).
+C++ Version: Developed by [Yaman Karakoca](https://github.com/ykarakoca).
+Both versions of the system operate independently and provide personalized movie recommendations based on user preferences, ratings, or other input data.
 
-**Features**
-- Content-Based Filtering: Recommends movies based on the content similarity to what the user has liked in the past.
-- Hybrid Implementation: Combines the strengths of Python for machine learning and data manipulation with C++ for efficient data processing.
-- Customizable: Easily extendable to include more features or use other recommendation strategies.
+Features
+Python Version:
 
-**Technologies Used**
-- Python: For machine learning, data processing, and recommendation logic.
-- C++: For performance-critical operations and data handling.
+Uses libraries like pandas, numpy, and scikit-learn.
+Provides functionality for data preprocessing, similarity computation, and recommendation generation using collaborative filtering.
+C++ Version:
 
-**Libraries:**
-- Python: pandas, scikit-learn, numpy .  
-- C++: iostream, fstream, vector, sstream, algorithm, string , map.
+Implements efficient algorithms for movie recommendation.
+Uses custom data structures and optimizations for faster performance.
+Each version has its own set of dependencies and instructions for setup and execution.
 
-**Installation**
-1.	 Clone the repository:
-   git clone https://github.com/Salih04 /movie-recommendation-system.git
-   cd movie-recommendation-system
+Setup
+Python Version
+Prerequisites:
+Python 3.x
 
-2.	Set up the Python environment:
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Required libraries: Install dependencies by running:
 pip install -r requirements.txt
+Running the Python version:
 
-3.	Build the C++ components:
-o	Navigate to the cpp directory and run the makefile or compile the C++ code using:
- 	                    g++ -o main main.cpp -std=c++11
-**Usage**
-1.	Prepare the Dataset:
-o	Ensure the movie dataset (e.g., CSV or JSON format) is placed in the data directory.
-o	The dataset should include features like title, genres, movieId.
-2.	Run the Recommendation System:
-o	Execute the main script which combines Python and C++ components:
-    python main.py
-o	Alternatively, if you need to run specific C++ modules, compile and execute them as needed.
-3.	Accessing Results:
-o	Recommendations will be displayed in the console or saved to an output file, depending on your implementation.
+To generate movie recommendations, execute the following command:
 
-**Contact**
+python movie_recommender.py
+Input Data: The input file should be in CSV format with movie ratings or relevant data. Modify the data_path in the script to point to your dataset.
 
-Salih Camcı, salih.camci@bahcesehir.edu.tr
+C++ Version
+Prerequisites:
 
-Yaman Karakoca, yaman.karakoca@bahcesehir.edu.tr
+A C++ compiler (e.g., g++, clang)
+CMake (optional, if using for build)
+Compiling:
 
-Project Link: https://github.com/Salih04/movie-recommendation-system
+Navigate to the C++ directory and compile the code:
 
 
+g++ -o movie_recommender movie_recommender.cpp
+Running the C++ version:
+
+After compiling, run the executable:
+
+
+./movie_recommender
+Input Data: Ensure that the input file (e.g., a CSV or text file) is formatted as expected by the C++ code. You may need to modify the file_path in the source code.
+
+***Future Improvements***
+Integrate both versions into a unified interface or API.
+Extend functionality with more advanced recommendation algorithms.
+Add a web interface for easier interaction with the system.
+
+***Contributors***
+Salih Camcı (https://github.com/Salih04) - Python Version
+Yaman Karakoca (https://github.com/ykarakoca) - C++ Version
