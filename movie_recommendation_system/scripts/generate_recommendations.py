@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import sys
 
 # Load the dataset
-movies = pd.read_csv('C:/Users/salih/Desktop/movie_recommendation_system/data/movies.csv')
+movies = pd.read_csv('data/movies.csv') 
 
 # Combine features into a single string
 #movieId eklemedik çünkü o bir int biz stringleri combine'lıyoruz
