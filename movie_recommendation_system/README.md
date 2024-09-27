@@ -31,20 +31,8 @@ The system takes a movie title as an argument, passed through the launch.json co
 ## Running the Python version:
 - Open the project in your editor (e.g., VS Code).
 - Ensure that your launch.json file contains the appropriate configuration:
-
-{
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Python: Current File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "args": ["Sabrina (1995)"]  // Add your arguments here
-        }
-    ]
-}
+  "args": ["Sabrina (1995)"]  // Add your arguments here
+  
 Run the project by selecting the Python: Current File configuration in the debugger and start the process. The program will take a movie (e.g., "Sabrina (1995)") as an argument for recommendations.
 
 ***Input Data***: Modify the args field in launch.json to pass in different movie titles or arguments as input.
