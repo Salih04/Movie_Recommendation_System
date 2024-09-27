@@ -27,7 +27,7 @@ Install dependencies by running:
 pip install -r requirements.txt
 Running the Python version:
 
-### To generate movie recommendations, execute the following command:
+To generate movie recommendations, run the following command:
 python movie_recommender.py
 
 ***Input Data***: The input file should be in CSV format with movies.csv. Modify the data_path in the script to point to your dataset if any error occurs.
@@ -46,10 +46,10 @@ After compiling, run the executable:
 ***Input Data***: Ensure that the input file (e.g., a CSV or text file) is formatted as expected by the C++ code. You may need to modify the file_path in the source code.
 
 # Future Improvements #
-Integrate both versions into a unified interface or API.
-Extend functionality with more advanced recommendation algorithms.
-Add a web interface for easier interaction with the system.
+- Integrate both versions into a unified interface or API.
+- Extend functionality with more advanced recommendation algorithms.
+- Add a web interface for easier interaction with the system.
 
 # Contributors #
-Salih Camcı (https://github.com/Salih04) - Python Version
-Yaman Karakoca (https://github.com/ykarakoca) - C++ Version
+[Salih Camcı](https://github.com/Salih04) - Python Version
+[Yaman Karakoca](https://github.com/ykarakoca) - C++ Version
